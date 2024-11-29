@@ -6,6 +6,6 @@ public class Main {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "D:\\TEST\\Java\\Projects\\Test_run\\src\\driver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.quit();
+        driver.get("https://broker2.rshb.ru/broker2/pwa/");
     }
 }
