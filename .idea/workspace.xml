@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27889e28-0784-4295-b500-fda4df19ec6d" name="Changes" comment="ChromeDriver">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson_1/HomeWorkFirst.java" afterDir="false" />
+    <list default="true" id="27889e28-0784-4295-b500-fda4df19ec6d" name="Changes" comment="First_Unit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Api/UserData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssured/DraftRestAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/DraftRestAPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +37,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/TEST/Java/Projects/Test_run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/TEST/Java/Projects/Test_run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\TEST\Java\Projects\Test_run\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HomeWorkFirst.testWeightMiddle">
+  <component name="RunManager" selected="JUnit.DraftRestAPI.Login">
+    <configuration name="DraftRestAPI.Login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test_run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAssured" />
+      <option name="MAIN_CLASS_NAME" value="RestAssured.DraftRestAPI" />
+      <option name="METHOD_NAME" value="Login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeWorkFirst.testWeightHigh" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test_run" />
       <extension name="coverage">
@@ -79,22 +95,6 @@
       <option name="PACKAGE_NAME" value="Lesson_1" />
       <option name="MAIN_CLASS_NAME" value="Lesson_1.HomeWorkFirst" />
       <option name="METHOD_NAME" value="testWeightIncorrect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeWorkFirst.testWeightLow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test_run" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson_1" />
-      <option name="MAIN_CLASS_NAME" value="Lesson_1.HomeWorkFirst" />
-      <option name="METHOD_NAME" value="testWeightLow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DraftRestAPI.Login" />
         <item itemvalue="JUnit.HomeWorkFirst.testWeightMiddle" />
         <item itemvalue="JUnit.HomeWorkFirst.testWeightNormal" />
         <item itemvalue="JUnit.HomeWorkFirst.testWeightIncorrect" />
         <item itemvalue="JUnit.HomeWorkFirst.testWeightHigh" />
-        <item itemvalue="JUnit.HomeWorkFirst.testWeightLow" />
       </list>
     </recent_temporary>
   </component>
